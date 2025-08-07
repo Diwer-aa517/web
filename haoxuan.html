@@ -1,0 +1,3674 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>客製化禮品｜百貨｜ - 浩軒國際貿易有限公司</title>
+    <meta name="description" content="浩軒國際貿易有限公司,企業贈品愛用">
+    <meta name="keywords" content="交屋包, 帆布袋, 保冰袋, 保冷袋, 鎖牌, 不織布袋, 客製化贈品, 贈品設計, 皮件代工, 展場贈品, 品牌贈品">
+    <meta property="og:title" content="浩軒國際貿易有限公司贈品製作專家">
+    <meta property="og:description" content="專營少量打樣、快速交貨，客製禮品、百貨、等多樣商品設計代工服務。">
+    <meta property="og:image" content="https://ddex831.github.io/diwer/images-web/浩軒13.6.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images-web/浩軒13.6.png">
+    <link rel="Diwer-icon" sizes="180x180" href="images-web/浩軒13.6.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <style>
+      body { background-color: #f6f1ee; }
+
+      /* 放大預覽的動態 div */
+      .zoom-preview {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-repeat: no-repeat;
+        background-size:50%;  /* 放大 2 倍 */
+        display: none;
+        cursor: zoom-out;
+        z-index: 9999;
+      }
+
+      /* PDF 專用排版 (若你未使用可移除) */
+      .pdf-grid .outdoor-swiper { overflow: visible !important; height: auto !important; }
+      .pdf-grid .swiper-wrapper { display: grid !important; grid-template-columns: repeat(6, 1fr) !important; grid-auto-rows: auto !important; gap: 10px !important; overflow: visible !important; width: 100% !important; }
+      /* 只在 PDF 時套用 */
+      .pdf-grid #pdf-catalog {
+        /* 縮小到 80% 大小，依照需求調整 0.7~0.9 */
+        transform: scale(0.9);
+        transform-origin: top ;
+      }
+
+      
+    </style>
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  </head>
+
+  <body>
+    <!-- 手機流程用：若外部瀏覽器而非 LIFF，提示「開啟 LINE」 -->
+
+    <div id="open-external-tip" style="
+      display:none;
+      background:#fffae6;
+      padding:8px;
+      text-align:center;
+      font-size:14px;
+      border-bottom:1px solid #ddd;
+      ">
+      分享或下載失敗？  
+      請點右上「⋯」選單 → 在瀏覽器開啟
+    </div>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg haoxuan-navbar">
+      <div class="container justify-content-between">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images-web/浩軒13.6.png" alt="Logo" class="logohao" />
+          <span class="brand-name ms-2">浩軒</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">產品目錄</a>
+              <ul class="dropdown-menu" id="product-dropdown">
+                <!-- JS 會自動填入 -->
+              </ul>
+            </li>
+            <li class="nav-item px-2"><a class="nav-link" href="partners.html">合作品牌</a></li>
+            <!-- <li class="nav-item px-2">
+              <div class="d-flex align-items-center gap-2">
+                <a href="https://line.me/R/ti/p/@851akusw" target="_blank" class="btn btn-success">LINE諮詢</a>
+                <button class="btn btn-dark" id="export-pdf">下載商品型錄</button>
+              </div>
+            </li> -->
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 圖片輪播 -->
+    <div class="container my-4">
+      <div id="diwerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#diwerCarousel" data-bs-slide-to="5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="images-web/禮品1.2.png" class="d-block w-100" alt=""></div>
+          <div class="carousel-item"><img src="images-web/禮品9.png" class="d-block w-100" alt=""></div>
+          <div class="carousel-item"><img src="images-web/禮品6.1.png" class="d-block w-100" alt=""></div>
+          <div class="carousel-item"><img src="images-web/禮品5.1.png" class="d-block w-100" alt=""></div>
+          <div class="carousel-item"><img src="images-web/禮品8.1.png" class="d-block w-100" alt=""></div>
+          <div class="carousel-item"><img src="images-web/禮品10.png" class="d-block w-100" alt=""></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#diwerCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span><span class="visually-hidden">上一張</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#diwerCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span><span class="visually-hidden">下一張</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 商品贈品 -->
+    <div id="pdf-catalog">
+      <!-- 戶外用品贈品 -->
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">戶外用品贈品</h1>
+          <div class="swiper outdoor-swiper">
+            
+            <div class="swiper-wrapper">
+              <!--
+              📌 此區塊代表「產品卡片」，用於顯示一個戶外商品 (這裡是帳篷)
+              ⚠️ 注意：這段程式碼被放在 Swiper 套件的滑塊 (swiper-slide) 裡面，用於圖片輪播
+              -->
+
+              <div class="swiper-slide outdoor-item" 
+              data-aos="fade-up"            
+              data-id="outdoor-tent"        
+              data-name="帳篷">    <!-- 自訂商品名稱，方便程式抓取 -->
+              <!-- 網頁捲動到這裡時會有「向上淡入」動畫 (AOS 插件) -->
+              <!-- 自訂商品ID，給 JavaScript 用來定位這個商品 -->
+
+              <!-- 📌 外層圖片框，包覆圖片用，方便CSS控制大小和排列 -->
+              <div class="outdoor-img-wrapper"> 
+
+              <!-- 📌 <picture>：讓瀏覽器可自動選擇最適合的圖片格式
+                  1️⃣ 先嘗試載入 WebP (效能更好)
+                  2️⃣ 不支援 WebP 時改載入 PNG
+                  3️⃣ 根據螢幕大小 (400/800/1200px) 載入不同解析度圖片，節省流量 -->
+              <picture>
+
+              <!-- 1️⃣ WebP 版本圖片設定 -->
+              <source type="image/webp"  
+                      srcset="images-web/帳篷1-400.webp 400w,  
+                              images-web/帳篷1-800.webp 800w,  
+                              images-web/帳篷1-1200.webp 1200w" 
+                      sizes="(min-width: 1200px) 20vw, 33vw"> 
+              
+              <!-- 2️⃣ PNG 版本圖片設定 (給不支援WebP的瀏覽器) -->
+              <source type="image/png"
+                      srcset="images-web/帳篷1-400.png 400w,
+                              images-web/帳篷1-800.png 800w,
+                              images-web/帳篷1-1200.png 1200w"
+                      sizes="(min-width: 1200px) 20vw, 33vw">
+              
+              <!-- 3️⃣ 最終顯示圖片 (主要載入WebP版本，瀏覽器會自動選擇最適合解析度) -->
+              <img src="images-web/帳篷1-800.webp"   
+                    alt="帳篷"                       
+                    class="zoomable-img"             
+                    width="150" height="150"         
+                    loading="lazy"                   
+                    decoding="async">                <!-- 非同步解碼圖片，加快載入速度 -->
+                    <!-- 預設載入800寬度版本 -->
+                    <!-- 圖片說明文字(SEO/無障礙需求) -->
+                    <!-- 加入縮放效果的class，點擊可放大 -->
+                    <!-- 固定圖片尺寸避免版面跳動 -->
+                    <!-- 延遲載入，提升頁面效能 -->
+
+              </picture>
+              </div>
+
+              <!-- 分隔線 (水平線)，做圖片與標題之間的視覺區隔 -->
+              <hr class="outdoor-divider" />
+
+              <!-- 📌 商品標題區塊 -->
+              <h2 class="outdoor-title"> <!-- 維持此class，CSS與JS功能會依賴它 -->
+
+              <!-- 正面文字 (預設顯示商品名稱) -->
+              <span class="title-front">帳篷</span>
+
+              <!-- 背面文字 (用於翻轉動畫，顯示產品型號或其他資訊) -->
+              <span class="title-back">SH-059</span>
+
+              <!-- 心願單按鈕 (使用 Font Awesome 愛心圖示) -->
+              <button class="btn-wishlist" aria-label="加入心願單">
+              <i class="far fa-heart"></i>
+              </button>
+
+              </h2>
+
+              </div>
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="outdoor-moon-chair" data-name="月亮椅">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/月亮椅-400.webp 400w,
+                                    images-web/月亮椅-800.webp 800w,
+                                    images-web/月亮椅-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/月亮椅-400.png 400w,
+                                    images-web/月亮椅-800.png 800w,
+                                    images-web/月亮椅-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/月亮椅-800.webp"
+                         alt="月亮椅"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy"
+                         decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title"> <!-- 外層 h2 維持原 class，讓 CSS/JS 能鎖定 -->
+                  <!-- 正面文字：初始顯示「積木娃包」 -->
+                  <span class="title-front">月亮椅</span>
+                  <!-- 背面文字：預設旋轉 90° 隱藏，之後顯示「HS-1900」 -->
+                  <span class="title-back">SH-062</span>
+                  <!-- 原本的心願單按鈕不動 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+                
+              </div>
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="outdoor-chair-2" data-name="戶外折疊椅2">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/戶外折疊椅2-400.webp 400w,
+                                    images-web/戶外折疊椅2-800.webp 800w,
+                                    images-web/戶外折疊椅2-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/戶外折疊椅2-400.png 400w,
+                                    images-web/戶外折疊椅2-800.png 800w,
+                                    images-web/戶外折疊椅2-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/戶外折疊椅2-800.webp"
+                         alt="戶外折疊椅2"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy"
+                         decoding="async">
+                  </picture>
+                </div>
+                
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title"> <!-- 外層 h2 維持原 class，讓 CSS/JS 能鎖定 -->
+                  <!-- 正面文字：初始顯示「積木娃包」 -->
+                  <span class="title-front">戶外折疊椅2</span>
+                  <!-- 背面文字：預設旋轉 90° 隱藏，之後顯示「HS-1900」 -->
+                  <span class="title-back">SH-060</span>
+                  <!-- 原本的心願單按鈕不動 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="outdoor-chair-1" data-name="戶外折疊椅1">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/戶外折疊椅1-400.webp 400w,
+                                    images-web/戶外折疊椅1-800.webp 800w,
+                                    images-web/戶外折疊椅1-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/戶外折疊椅1-400.png 400w,
+                                    images-web/戶外折疊椅1-800.png 800w,
+                                    images-web/戶外折疊椅1-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/戶外折疊椅1-800.webp"
+                         alt="戶外折疊椅1"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy"
+                         decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <!-- ★ 戶外折疊椅 1 ──(原本 h2 區塊) -->
+                <h2 class="outdoor-title">                   <!-- ① 外層 h2：維持原 class -->
+                  <span class="title-front">戶外折疊椅1</span> <!-- ② 正面文字 -->
+                  <span class="title-back">SH‑061</span>       <!-- ③ 背面文字 (自行替換) -->
+                  <button class="btn-wishlist" aria-label="加入心願單"> <!-- ④ 愛心按鈕不變 -->
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="outdoor-chair-3" data-name="戶外折疊椅3">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/戶外折疊椅3-400.webp 400w,
+                                    images-web/戶外折疊椅3-800.webp 800w,
+                                    images-web/戶外折疊椅3-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/戶外折疊椅3-400.png 400w,
+                                    images-web/戶外折疊椅3-800.png 800w,
+                                    images-web/戶外折疊椅3-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/戶外折疊椅3-800.webp"
+                         alt="戶外折疊椅3"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy"
+                         decoding="async">
+                  </picture>
+                </div>
+                
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">戶外折疊椅3</span>
+                  <span class="title-back">SH-063</span>       <!-- ← 型號示範，依需求修改 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="outdoor-baseball" data-name="棒球">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/棒球-400.webp 400w,
+                                    images-web/棒球-800.webp 800w,
+                                    images-web/棒球-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/棒球-400.png 400w,
+                                    images-web/棒球-800.png 800w,
+                                    images-web/棒球-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/棒球-800.webp"
+                         alt="棒球"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy"
+                         decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">棒球</span>
+                  <span class="title-back">SH-064</span>       <!-- ← 型號示範，依需求修改 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+            </div>
+              
+           
+          </div>
+        </div>
+      </section>
+      <!-- ========================================= -->
+      <!--          杯子贈品  (全部已改 <picture>)    -->
+      <!-- ========================================= -->
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">杯子贈品</h1>
+
+          <div class="swiper outdoor-swiper">
+            <div class="swiper-wrapper">
+              <!-- ① 冰壩杯 -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-ice" data-name="冰壩杯">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/冰壩杯-400.webp 400w,
+                                    images-web/冰壩杯-800.webp 800w,
+                                    images-web/冰壩杯-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/冰壩杯-400.png 400w,
+                                    images-web/冰壩杯-800.png 800w,
+                                    images-web/冰壩杯-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/冰壩杯-800.webp"
+                        alt="冰壩杯"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">冰壩杯</span>   <!-- 正面：原商品名 -->
+                  <span class="title-back">SC-0007</span>   <!-- 背面：型號示範，可換 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              
+
+              <!-- ③ 旅行洗漱杯 -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-travel" data-name="旅行洗洗漱杯">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/旅行洗洗漱杯-400.webp 400w,
+                                    images-web/旅行洗洗漱杯-800.webp 800w,
+                                    images-web/旅行洗洗漱杯-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/旅行洗洗漱杯-400.png 400w,
+                                    images-web/旅行洗洗漱杯-800.png 800w,
+                                    images-web/旅行洗洗漱杯-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/旅行洗洗漱杯-800.webp"
+                        alt="旅行洗洗漱杯"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">旅行洗洗漱杯</span>
+                  <span class="title-back">SC-0005</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <!-- ④ 水杯A -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-a" data-name="水杯A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/水杯A-400.webp 400w,
+                                    images-web/水杯A-800.webp 800w,
+                                    images-web/水杯A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/水杯A-400.png 400w,
+                                    images-web/水杯A-800.png 800w,
+                                    images-web/水杯A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/水杯A-800.webp"
+                        alt="水杯A"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">水杯A</span>
+                  <span class="title-back">SC-0006</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <!-- ⑤ 水杯B -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-b" data-name="水杯B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/水杯B-400.webp 400w,
+                                    images-web/水杯B-800.webp 800w,
+                                    images-web/水杯B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/水杯B-400.png 400w,
+                                    images-web/水杯B-800.png 800w,
+                                    images-web/水杯B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/水杯B-800.webp"
+                        alt="水杯B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">水杯B</span>
+                  <span class="title-back">SC-0006</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <!-- ⑥ 水杯C -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-c" data-name="水杯C">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/水杯C-400.webp 400w,
+                                    images-web/水杯C-800.webp 800w,
+                                    images-web/水杯C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/水杯C-400.png 400w,
+                                    images-web/水杯C-800.png 800w,
+                                    images-web/水杯C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/水杯C-800.webp"
+                        alt="水杯C"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">水杯C</span>
+                  <span class="title-back">SC-0006</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cape" data-name="冷水壺">
+                <div class="outdoor-img-wrapper">
+                  <img src="images-web/冷水壺.png" class="zoomable-img" alt="冷水壺" width="150" height="150" loading="lazy"   decoding="async">
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">冷水壺</span>
+                  <span class="title-back">SO-367</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <!-- ⑦ 玻璃杯 -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-glass" data-name="玻璃杯">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/玻璃杯-400.webp 400w,
+                                    images-web/玻璃杯-800.webp 800w,
+                                    images-web/玻璃杯-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/玻璃杯-400.png 400w,
+                                    images-web/玻璃杯-800.png 800w,
+                                    images-web/玻璃杯-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/玻璃杯-800.webp"
+                        alt="玻璃杯"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">玻璃杯</span>
+                  <span class="title-back">SC-0002</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <!-- ⑧ 水杯D -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-d" data-name="水杯D">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/水杯d-400.webp 400w,
+                                    images-web/水杯d-800.webp 800w,
+                                    images-web/水杯d-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/水杯d-400.png 400w,
+                                    images-web/水杯d-800.png 800w,
+                                    images-web/水杯d-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/水杯d-800.webp"
+                        alt="水杯D"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">水杯D</span>
+                  <span class="title-back">SC-0008</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              <!-- ② 咖啡玻璃杯 -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cup-coffee" data-name="咖啡玻璃杯">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/咖啡玻璃杯-400.webp 400w,
+                                    images-web/咖啡玻璃杯-800.webp 800w,
+                                    images-web/咖啡玻璃杯-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/咖啡玻璃杯-400.png 400w,
+                                    images-web/咖啡玻璃杯-800.png 800w,
+                                    images-web/咖啡玻璃杯-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/咖啡玻璃杯-800.webp"
+                        alt="咖啡玻璃杯"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">咖啡玻璃杯</span>
+                  <span class="title-back">SC‑0004</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+            </div> <!-- .swiper-wrapper -->
+          </div>   <!-- .swiper -->
+        </div>     <!-- .outdoor-container -->
+      </section>
+
+
+      <!-- 餐盒贈品 -->
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">餐盒贈品</h1>
+        
+          <div class="swiper outdoor-swiper">
+            <div class="swiper-wrapper">
+            
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryC" data-name="餐盒A">
+                <!-- ① 餐盒A ------------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具C-400.webp 400w,
+                                    images-web/餐具C-800.webp 800w,
+                                    images-web/餐具C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具C-400.png 400w,
+                                    images-web/餐具C-800.png 800w,
+                                    images-web/餐具C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具C-800.webp"
+                        alt="餐盒"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title"> <!-- 外層 h2 保持原 class -->
+                  <span class="title-front">餐盒A</span>   <!-- 正面：原文字 -->
+                  <span class="title-back">SG-060</span> <!-- 背面：型號，自行替換 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryD" data-name="餐具D">
+                <!-- ② 便當盒 ------------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具D-400.webp 400w,
+                                    images-web/餐具D-800.webp 800w,
+                                    images-web/餐具D-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具D-400.png 400w,
+                                    images-web/餐具D-800.png 800w,
+                                    images-web/餐具D-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具D-800.webp"
+                        alt="便當盒"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">便當盒</span>
+                  <span class="title-back">SG-061</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryF" data-name="餐具F">
+                <!-- ③ 復古便當盒 --------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具F-400.webp 400w,
+                                    images-web/餐具F-800.webp 800w,
+                                    images-web/餐具F-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具F-400.png 400w,
+                                    images-web/餐具F-800.png 800w,
+                                    images-web/餐具F-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具F-800.webp"
+                        alt="復古便當盒"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">復古便當盒</span>
+                  <span class="title-back">SG-063</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryG" data-name="餐具G">
+                <!-- ④ 保鮮盒 ------------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具G-400.webp 400w,
+                                    images-web/餐具G-800.webp 800w,
+                                    images-web/餐具G-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具G-400.png 400w,
+                                    images-web/餐具G-800.png 800w,
+                                    images-web/餐具G-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具G-800.webp"
+                        alt="保鮮盒"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">保鮮盒</span>
+                  <span class="title-back">SG-064</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+                
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryH" data-name="餐具H">
+                <!-- ⑤ 不銹鋼餐盒A -------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具H-400.webp 400w,
+                                    images-web/餐具H-800.webp 800w,
+                                    images-web/餐具H-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具H-400.png 400w,
+                                    images-web/餐具H-800.png 800w,
+                                    images-web/餐具H-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具H-800.webp"
+                        alt="不銹鋼餐盒A"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">不銹鋼餐盒A</span>
+                  <span class="title-back">SG-066</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryJ" data-name="餐具J">
+                <!-- ⑥ 不銹鋼餐盒B -------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具J-400.webp 400w,
+                                    images-web/餐具J-800.webp 800w,
+                                    images-web/餐具J-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具J-400.png 400w,
+                                    images-web/餐具J-800.png 800w,
+                                    images-web/餐具J-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具J-800.webp"
+                        alt="不銹鋼餐盒B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">不銹鋼餐盒B</span>
+                  <span class="title-back">SG-065</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryL" data-name="餐具L">
+                <!-- ⑦ 餐盒B ------------------------------------------------------------------- -->
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具L-400.webp 400w,
+                                    images-web/餐具L-800.webp 800w,
+                                    images-web/餐具L-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具L-400.png 400w,
+                                    images-web/餐具L-800.png 800w,
+                                    images-web/餐具L-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具L-800.webp"
+                        alt="餐盒B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">收納盒4件組</span>
+                  <span class="title-back">SO-390</span>
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+
+
+
+
+            </div>
+           
+           
+          </div>
+        </div>
+      </section>
+
+    
+
+      <!-- 餐具贈品 -->
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">餐具贈品</h1>
+
+          <div class="swiper outdoor-swiper hx-grid-swiper">
+            <div class="swiper-wrapper">
+
+              <!-- ① 積木餐具 (cutleryA) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryA" data-name="餐具A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具A-400.webp 400w,
+                                    images-web/餐具A-800.webp 800w,
+                                    images-web/餐具A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具A-400.png 400w,
+                                    images-web/餐具A-800.png 800w,
+                                    images-web/餐具A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具A-800.webp"
+                        alt="餐具A"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">積木餐具</span>
+                  <span class="title-back">SG-058</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ② 餐具B (cutleryM) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryM" data-name="餐具B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具M-400.webp 400w,
+                                    images-web/餐具M-800.webp 800w,
+                                    images-web/餐具M-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具M-400.png 400w,
+                                    images-web/餐具M-800.png 800w,
+                                    images-web/餐具M-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具M-800.webp"
+                        alt="餐具B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">餐具B</span>
+                  <span class="title-back">SG-051</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ③ 餐具C (cutleryN) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutlery" data-name="餐具B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具N-400.webp 400w,
+                                    images-web/餐具N-800.webp 800w,
+                                    images-web/餐具N-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具N-400.png 400w,
+                                    images-web/餐具N-800.png 800w,
+                                    images-web/餐具N-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具N-800.webp"
+                        alt="餐具C"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">餐具C</span>
+                  <span class="title-back">SG-051</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ④ 不銹鋼泡麵碗 -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryB" data-name="餐具B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具B-400.webp 400w,
+                                    images-web/餐具B-800.webp 800w,
+                                    images-web/餐具B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具B-400.png 400w,
+                                    images-web/餐具B-800.png 800w,
+                                    images-web/餐具B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具B-800.webp"
+                        alt="不銹鋼泡麵碗"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">不銹鋼泡麵碗</span>
+                  <span class="title-back">SO-363</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              
+
+              <!-- ⑥ 陶瓷碗 (cutleryI) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryI" data-name="餐具I">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具I-400.webp 400w,
+                                    images-web/餐具I-800.webp 800w,
+                                    images-web/餐具I-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具I-400.png 400w,
+                                    images-web/餐具I-800.png 800w,
+                                    images-web/餐具I-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具I-800.webp"
+                        alt="陶瓷碗"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">陶瓷碗</span>
+                  <span class="title-back">SG-067</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ⑦ 砂鍋 (cutleryK) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryK" data-name="餐具K">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具K-400.webp 400w,
+                                    images-web/餐具K-800.webp 800w,
+                                    images-web/餐具K-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具K-400.png 400w,
+                                    images-web/餐具K-800.png 800w,
+                                    images-web/餐具K-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具K-800.webp"
+                        alt="砂鍋"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">砂鍋</span>
+                  <span class="title-back">SO-337</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryT" data-name="不鏽鋼碗">
+                <div class="outdoor-img-wrapper">
+                  <img src="images-web/不鏽鋼碗.png" class="zoomable-img" alt="不鏽鋼碗" width="150" height="150" loading="lazy"   decoding="async">
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">不鏽鋼碗</span>
+                  <span class="title-back">SO-368</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+
+              <!-- ⑧ 隔熱墊A (cutleryO) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryO" data-name="餐具O">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具O-400.webp 400w,
+                                    images-web/餐具O-800.webp 800w,
+                                    images-web/餐具O-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具O-400.png 400w,
+                                    images-web/餐具O-800.png 800w,
+                                    images-web/餐具O-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具O-800.webp"
+                        alt="隔熱墊A"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">隔熱墊A</span>
+                  <span class="title-back">SO-347</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ⑨ 隔熱墊B (cutleryP) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryP" data-name="餐具P">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具P-400.webp 400w,
+                                    images-web/餐具P-800.webp 800w,
+                                    images-web/餐具P-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具P-400.png 400w,
+                                    images-web/餐具P-800.png 800w,
+                                    images-web/餐具P-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具P-800.webp"
+                        alt="隔熱墊B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">隔熱墊B</span>
+                  <span class="title-back">SO-347</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ⑩ 隔熱手套A (cutleryQ) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryQ" data-name="餐具Q">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具Q-400.webp 400w,
+                                    images-web/餐具Q-800.webp 800w,
+                                    images-web/餐具Q-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具Q-400.png 400w,
+                                    images-web/餐具Q-800.png 800w,
+                                    images-web/餐具Q-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具Q-800.webp"
+                        alt="隔熱手套A"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">隔熱手套A</span>
+                  <span class="title-back">SO-347</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ⑪ 隔熱手套B (cutleryR) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryR" data-name="餐具R">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具R-400.webp 400w,
+                                    images-web/餐具R-800.webp 800w,
+                                    images-web/餐具R-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具R-400.png 400w,
+                                    images-web/餐具R-800.png 800w,
+                                    images-web/餐具R-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具R-800.webp"
+                        alt="隔熱手套B"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">隔熱手套B</span>
+                  <span class="title-back">SO-347</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <!-- ⑫ 手提冰桶 (cutleryS) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryS" data-name="餐具S">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具S-400.webp 400w,
+                                    images-web/餐具S-800.webp 800w,
+                                    images-web/餐具S-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具S-400.png 400w,
+                                    images-web/餐具S-800.png 800w,
+                                    images-web/餐具S-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具S-800.webp"
+                        alt="手提冰桶"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">手提冰桶</span>
+                  <span class="title-back">SO-348</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <!-- ⑤ 餐盒 (cutleryE) -->
+              <div class="swiper-slide outdoor-item" data-aos="fade-up"
+                  data-id="cutleryE" data-name="餐具E">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/餐具E-400.webp 400w,
+                                    images-web/餐具E-800.webp 800w,
+                                    images-web/餐具E-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/餐具E-400.png 400w,
+                                    images-web/餐具E-800.png 800w,
+                                    images-web/餐具E-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/餐具E-800.webp"
+                        alt="餐盒"
+                        class="zoomable-img"
+                        width="150" height="150"
+                        loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">餐盒</span>
+                  <span class="title-back">SG-062</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="cutleryT" data-name="餐具T">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <!-- WebP 版本（400 / 800 / 1200 px，大螢幕優先）-->
+                    <source type="image/webp"
+                            srcset="images-web/餐具T-400.webp 400w,
+                                    images-web/餐具T-800.webp 800w,
+                                    images-web/餐具T-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <!-- PNG Fallback（同尺寸，以防極舊瀏覽器）-->
+                    <source type="image/png"
+                            srcset="images-web/餐具T-400.png 400w,
+                                    images-web/餐具T-800.png 800w,
+                                    images-web/餐具T-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <!-- 最終保底 <img>，加 lazy 與寬高避免 CLS -->
+                    <img src="images-web/餐具T-800.webp"
+                         alt="餐具T"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">餐具D</span>
+                  <span class="title-back">HS-1873</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+            </div><!-- swiper-wrapper -->
+          </div><!-- swiper -->
+        </div><!-- outdoor-container -->
+      </section>
+
+
+
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">文具用品贈品</h1>
+
+          <div class="swiper outdoor-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penA" data-name="文具A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具H-400.webp 400w,
+                                    images-web/文具H-800.webp 800w,
+                                    images-web/文具H-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具H-400.png 400w,
+                                    images-web/文具H-800.png 800w,
+                                    images-web/文具H-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具H-800.webp"
+                         alt="文具H"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">證件透明卡套</span>
+                  <span class="title-back">HS‑2048</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penB" data-name="文具B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具B-400.webp 400w,
+                                    images-web/文具B-800.webp 800w,
+                                    images-web/文具B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具B-400.png 400w,
+                                    images-web/文具B-800.png 800w,
+                                    images-web/文具B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具B-800.webp"
+                         alt="文具B"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">魔術方塊A</span>
+                  <span class="title-back">SI-017</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penC" data-name="文具C">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具C-400.webp 400w,
+                                    images-web/文具C-800.webp 800w,
+                                    images-web/文具C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具C-400.png 400w,
+                                    images-web/文具C-800.png 800w,
+                                    images-web/文具C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具C-800.webp"
+                         alt="文具C"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">魔術方塊B</span>
+                  <span class="title-back">SI-018</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penD" data-name="文具D">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具D-400.webp 400w,
+                                    images-web/文具D-800.webp 800w,
+                                    images-web/文具D-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具D-400.png 400w,
+                                    images-web/文具D-800.png 800w,
+                                    images-web/文具D-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具D-800.webp"
+                         alt="文具D"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">桌曆A</span>
+                  <span class="title-back">SI-019</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penE" data-name="文具E">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具E-400.webp 400w,
+                                    images-web/文具E-800.webp 800w,
+                                    images-web/文具E-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具E-400.png 400w,
+                                    images-web/文具E-800.png 800w,
+                                    images-web/文具E-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具E-800.webp"
+                         alt="文具E"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">桌曆B</span>
+                  <span class="title-back">SI-019</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penF" data-name="文具F">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具F-400.webp 400w,
+                                    images-web/文具F-800.webp 800w,
+                                    images-web/文具F-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具F-400.png 400w,
+                                    images-web/文具F-800.png 800w,
+                                    images-web/文具F-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具F-800.webp"
+                         alt="文具F"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">桌曆C</span>
+                  <span class="title-back">SI-020</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penG" data-name="文具G">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具G-400.webp 400w,
+                                    images-web/文具G-800.webp 800w,
+                                    images-web/文具G-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具G-400.png 400w,
+                                    images-web/文具G-800.png 800w,
+                                    images-web/文具G-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具G-800.webp"
+                         alt="文具G"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">桌曆D</span>
+                  <span class="title-back">SI-020</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penI" data-name="文具I">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具I-400.webp 400w,
+                                    images-web/文具I-800.webp 800w,
+                                    images-web/文具I-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具I-400.png 400w,
+                                    images-web/文具I-800.png 800w,
+                                    images-web/文具I-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具I-800.webp"
+                         alt="文具I"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">磁鐵書籤A</span>
+                  <span class="title-back">SO-358</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penJ" data-name="文具J">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具J-400.webp 400w,
+                                    images-web/文具J-800.webp 800w,
+                                    images-web/文具J-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具J-400.png 400w,
+                                    images-web/文具J-800.png 800w,
+                                    images-web/文具J-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具J-800.webp"
+                         alt="文具J"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">磁鐵書籤B</span>
+                  <span class="title-back">SO-358</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="penH" data-name="文具H">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/文具A-400.webp 400w,
+                                    images-web/文具A-800.webp 800w,
+                                    images-web/文具A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/文具A-400.png 400w,
+                                    images-web/文具A-800.png 800w,
+                                    images-web/文具A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/文具A-800.webp"
+                         alt="文具A"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">魔術方塊C</span>
+                  <span class="title-back">SI-017</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="刺繡鑰匙圈" data-name="刺繡鑰匙圈">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/刺繡鑰匙圈-400.webp 400w,
+                                    images-web/刺繡鑰匙圈-800.webp 800w,
+                                    images-web/刺繡鑰匙圈-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/刺繡鑰匙圈-400.png 400w,
+                                    images-web/刺繡鑰匙圈-800.png 800w,
+                                    images-web/刺繡鑰匙圈-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/刺繡鑰匙圈-800.webp"
+                         alt="刺繡鑰匙圈"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">刺繡鑰匙圈 </span>
+                  <span class="title-back">SO-400</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">日用小物贈品</h1>
+
+          <div class="swiper outdoor-swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="風扇A" data-name="風扇A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/風扇-400.webp 400w,
+                                    images-web/風扇-800.webp 800w,
+                                    images-web/風扇-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/風扇-400.png 400w,
+                                    images-web/風扇-800.png 800w,
+                                    images-web/風扇-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/風扇-800.webp"
+                         alt="風扇A"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">風扇A </span>
+                  <span class="title-back">SO-397</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="風扇B" data-name="風扇B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/風扇2-400.webp 400w,
+                                    images-web/風扇2-800.webp 800w,
+                                    images-web/風扇2-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/風扇2-400.png 400w,
+                                    images-web/風扇2-800.png 800w,
+                                    images-web/風扇2-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/風扇2-800.webp"
+                         alt="風扇B"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">風扇B </span>
+                  <span class="title-back">SO-398</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysW" data-name="日用W">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用W-400.webp 400w,
+                                    images-web/日用W-800.webp 800w,
+                                    images-web/日用W-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用W-400.png 400w,
+                                    images-web/日用W-800.png 800w,
+                                    images-web/日用W-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用W-800.webp"
+                         alt="日用W"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">旅行噴霧瓶EVA袋 </span>
+                  <span class="title-back">SO-378</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="磁吸小燈箱" data-name="磁吸小燈箱">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/磁吸小燈箱-400.webp 400w,
+                                    images-web/磁吸小燈箱-800.webp 800w,
+                                    images-web/磁吸小燈箱-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/磁吸小燈箱-400.png 400w,
+                                    images-web/磁吸小燈箱-800.png 800w,
+                                    images-web/磁吸小燈箱-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/磁吸小燈箱-800.webp"
+                         alt="磁吸小燈箱"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">磁吸小燈箱</span>
+                  <span class="title-back">SO-389</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="皮革收納盤" data-name="皮革收納盤">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/皮革收納盤-400.webp 400w,
+                                    images-web/皮革收納盤-800.webp 800w,
+                                    images-web/皮革收納盤-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/皮革收納盤-400.png 400w,
+                                    images-web/皮革收納盤-800.png 800w,
+                                    images-web/皮革收納盤-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/皮革收納盤-800.webp"
+                         alt="皮革收納盤"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>                
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">皮革收納盤</span>
+                  <span class="title-back">SO-393</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="積木娃包" data-name="積木娃包">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/積木娃包-400.webp 400w,
+                                    images-web/積木娃包-800.webp 800w,
+                                    images-web/積木娃包-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/積木娃包-400.png 400w,
+                                    images-web/積木娃包-800.png 800w,
+                                    images-web/積木娃包-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/積木娃包-800.webp"
+                         alt="積木娃包"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title"> <!-- 外層 h2 維持原 class，讓 CSS/JS 能鎖定 -->
+                  <!-- 正面文字：初始顯示「積木娃包」 -->
+                  <span class="title-front">積木娃包</span>
+                  <!-- 背面文字：預設旋轉 90° 隱藏，之後顯示「HS-1900」 -->
+                  <span class="title-back">SO-371</span>
+                  <!-- 原本的心願單按鈕不動 -->
+                  <button class="btn-wishlist" aria-label="加入心願單">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </h2>
+              </div>
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="玻璃瓶" data-name="玻璃瓶">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/玻璃瓶-400.webp 400w,
+                                    images-web/玻璃瓶-800.webp 800w,
+                                    images-web/玻璃瓶-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/玻璃瓶-400.png 400w,
+                                    images-web/玻璃瓶-800.png 800w,
+                                    images-web/玻璃瓶-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/玻璃瓶-800.webp"
+                         alt="玻璃瓶"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">玻璃瓶</span>
+                  <span class="title-back">SO-382</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="造型手腕" data-name="造型手腕">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/造型手腕-400.webp 400w,
+                                    images-web/造型手腕-800.webp 800w,
+                                    images-web/造型手腕-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/造型手腕-400.png 400w,
+                                    images-web/造型手腕-800.png 800w,
+                                    images-web/造型手腕-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/造型手腕-800.webp"
+                         alt="造型手腕"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">造型手腕</span>
+                  <span class="title-back">SO-384</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="皮革文件夾" data-name="皮革文件夾">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/皮革文件夾-400.webp 400w,
+                                    images-web/皮革文件夾-800.webp 800w,
+                                    images-web/皮革文件夾-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/皮革文件夾-400.png 400w,
+                                    images-web/皮革文件夾-800.png 800w,
+                                    images-web/皮革文件夾-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/皮革文件夾-800.webp"
+                         alt="皮革文件夾"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">皮革文件夾</span>
+                  <span class="title-back">SO-387</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="絲巾B" data-name="絲巾B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/絲巾B-400.webp 400w,
+                                    images-web/絲巾B-800.webp 800w,
+                                    images-web/絲巾B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/絲巾B-400.png 400w,
+                                    images-web/絲巾B-800.png 800w,
+                                    images-web/絲巾B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/絲巾B-800.webp"
+                         alt="絲巾B"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">絲巾B</span>
+                  <span class="title-back">SO-385</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysB" data-name="日用B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用B-400.webp 400w,
+                                    images-web/日用B-800.webp 800w,
+                                    images-web/日用B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用B-400.png 400w,
+                                    images-web/日用B-800.png 800w,
+                                    images-web/日用B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用B-800.webp"
+                         alt="日用B"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">娃娃A</span>
+                  <span class="title-back">SO-340</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysU" data-name="日用U">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用U-400.webp 400w,
+                                    images-web/日用U-800.webp 800w,
+                                    images-web/日用U-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用U-400.png 400w,
+                                    images-web/日用U-800.png 800w,
+                                    images-web/日用U-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用U-800.webp"
+                         alt="日用U"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">娃娃C</span>
+                  <span class="title-back">HS-2005</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+              
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysF" data-name="日用F">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用F-400.webp 400w,
+                                    images-web/日用F-800.webp 800w,
+                                    images-web/日用F-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用F-400.png 400w,
+                                    images-web/日用F-800.png 800w,
+                                    images-web/日用F-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用F-800.webp"
+                         alt="日用F"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>                
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">手機支架</span>
+                  <span class="title-back">SO-344</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysO" data-name="日用O">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用O-400.webp 400w,
+                                    images-web/日用O-800.webp 800w,
+                                    images-web/日用O-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用O-400.png 400w,
+                                    images-web/日用O-800.png 800w,
+                                    images-web/日用O-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用O-800.webp"
+                         alt="日用O"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">手腕掛繩A</span>
+                  <span class="title-back">SO-356</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysP" data-name="日用P">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用P-400.webp 400w,
+                                    images-web/日用P-800.webp 800w,
+                                    images-web/日用P-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用P-400.png 400w,
+                                    images-web/日用P-800.png 800w,
+                                    images-web/日用P-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用P-800.webp"
+                         alt="日用P"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">手機掛繩B</span>
+                  <span class="title-back">SO-356</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysQ" data-name="日用Q">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用Q-400.webp 400w,
+                                    images-web/日用Q-800.webp 800w,
+                                    images-web/日用Q-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用Q-400.png 400w,
+                                    images-web/日用Q-800.png 800w,
+                                    images-web/日用Q-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用Q-800.webp"
+                         alt="日用Q"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">精油手工皂</span>
+                  <span class="title-back">SO-361</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysR" data-name="日用R">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用R-400.webp 400w,
+                                    images-web/日用R-800.webp 800w,
+                                    images-web/日用R-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用R-400.png 400w,
+                                    images-web/日用R-800.png 800w,
+                                    images-web/日用R-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用R-800.webp"
+                         alt="日用R"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">精油花瓣手工皂</span>
+                  <span class="title-back">SO-362</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysS" data-name="日用S">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用S-400.webp 400w,
+                                    images-web/日用S-800.webp 800w,
+                                    images-web/日用S-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用S-400.png 400w,
+                                    images-web/日用S-800.png 800w,
+                                    images-web/日用S-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用S-800.webp"
+                         alt="日用S"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">摺疊傘A</span>
+                  <span class="title-back">HS‑1885</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysT" data-name="日用T">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用T-400.webp 400w,
+                                    images-web/日用T-800.webp 800w,
+                                    images-web/日用T-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用T-400.png 400w,
+                                    images-web/日用T-800.png 800w,
+                                    images-web/日用T-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用T-800.webp"
+                         alt="日用T"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">摺疊傘B</span>
+                  <span class="title-back">SH-058</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysM" data-name="日用M">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用M-400.webp 400w,
+                                    images-web/日用M-800.webp 800w,
+                                    images-web/日用M-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用M-400.png 400w,
+                                    images-web/日用M-800.png 800w,
+                                    images-web/日用M-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用M-800.webp"
+                         alt="日用M"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">頭皮按摩梳A</span>
+                  <span class="title-back">SO-354</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysN" data-name="日用N">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用N-400.webp 400w,
+                                    images-web/日用N-800.webp 800w,
+                                    images-web/日用N-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用N-400.png 400w,
+                                    images-web/日用N-800.png 800w,
+                                    images-web/日用N-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用N-800.webp"
+                         alt="日用N"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">頭皮按摩梳B</span>
+                  <span class="title-back">SO-354</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysL" data-name="日用L">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用L-400.webp 400w,
+                                    images-web/日用L-800.webp 800w,
+                                    images-web/日用L-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用L-400.png 400w,
+                                    images-web/日用L-800.png 800w,
+                                    images-web/日用L-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用L-800.webp"
+                         alt="日用L"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">頭皮按摩梳C</span>
+                  <span class="title-back">HS‑1960</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysD" data-name="日用D">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用D-400.webp 400w,
+                                    images-web/日用D-800.webp 800w,
+                                    images-web/日用D-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用D-400.png 400w,
+                                    images-web/日用D-800.png 800w,
+                                    images-web/日用D-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用D-800.webp"
+                         alt="日用D"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">飲料提籃</span>
+                  <span class="title-back">SO-342</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysA" data-name="日用A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用A-400.webp 400w,
+                                    images-web/日用A-800.webp 800w,
+                                    images-web/日用A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用A-400.png 400w,
+                                    images-web/日用A-800.png 800w,
+                                    images-web/日用A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用A-800.webp"
+                         alt="日用A"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">吸水墊</span>
+                  <span class="title-back">HS‑1970</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysC" data-name="日用C">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用C-400.webp 400w,
+                                    images-web/日用C-800.webp 800w,
+                                    images-web/日用C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用C-400.png 400w,
+                                    images-web/日用C-800.png 800w,
+                                    images-web/日用C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用C-800.webp"
+                         alt="日用C"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">娃娃B</span>
+                  <span class="title-back">SO-339</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="絲巾C" data-name="絲巾C">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/絲巾C-400.webp 400w,
+                                    images-web/絲巾C-800.webp 800w,
+                                    images-web/絲巾C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/絲巾C-400.png 400w,
+                                    images-web/絲巾C-800.png 800w,
+                                    images-web/絲巾C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/絲巾C-800.webp"
+                         alt="絲巾C"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">絲巾C</span>
+                  <span class="title-back">SO-386</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="絲巾A" data-name="絲巾A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/絲巾A-400.webp 400w,
+                                    images-web/絲巾A-800.webp 800w,
+                                    images-web/絲巾A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/絲巾A-400.png 400w,
+                                    images-web/絲巾A-800.png 800w,
+                                    images-web/絲巾A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/絲巾A-800.webp"
+                         alt="絲巾A"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">絲巾A</span>
+                  <span class="title-back">SO-385</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="outdoor-section">
+        <div class="outdoor-container">
+          <h1 class="title-main mb-4">居家贈品</h1>
+
+          <div class="swiper outdoor-swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="沐浴球" data-name="沐浴球">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/沐浴球-400.webp 400w,
+                                    images-web/沐浴球-800.webp 800w,
+                                    images-web/沐浴球-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/沐浴球-400.png 400w,
+                                    images-web/沐浴球-800.png 800w,
+                                    images-web/沐浴球-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/沐浴球-800.webp"
+                         alt="沐浴球"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">沐浴球</span>
+                  <span class="title-back">SO‑396</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id= "摺疊收納箱" data-name="摺疊收納箱">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/摺疊收納盒-400.webp 400w,
+                                    images-web/摺疊收納盒-800.webp 800w,
+                                    images-web/摺疊收納盒-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/摺疊收納盒-400.png 400w,
+                                    images-web/摺疊收納盒-800.png 800w,
+                                    images-web/摺疊收納盒-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/摺疊收納盒-800.webp"
+                         alt="摺疊收納箱"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">摺疊收納盒</span>
+                  <span class="title-back">SO‑395</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysA" data-name="日用I">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用I-400.webp 400w,
+                                    images-web/日用I-800.webp 800w,
+                                    images-web/日用I-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用I-400.png 400w,
+                                    images-web/日用I-800.png 800w,
+                                    images-web/日用I-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用I-800.webp"
+                         alt="日用I"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">冷凝墊</span>
+                  <span class="title-back">HS‑2050</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="涼被" data-name="涼被">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/涼被-400.webp 400w,
+                                    images-web/涼被-800.webp 800w,
+                                    images-web/涼被-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/涼被-400.png 400w,
+                                    images-web/涼被-800.png 800w,
+                                    images-web/涼被-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/涼被-800.webp"
+                         alt="涼被"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">涼被</span>
+                  <span class="title-back">SO-380</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="擦手巾B" data-name="擦手巾B">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/擦手巾B-400.webp 400w,
+                                    images-web/擦手巾B-800.webp 800w,
+                                    images-web/擦手巾B-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/擦手巾B-400.png 400w,
+                                    images-web/擦手巾B-800.png 800w,
+                                    images-web/擦手巾B-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/擦手巾B-800.webp"
+                         alt="擦手巾B"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">擦手巾B</span>
+                  <span class="title-back">SO-388</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              
+
+
+
+
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="毛巾" data-name="毛巾">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/毛巾-400.webp 400w,
+                                    images-web/毛巾-800.webp 800w,
+                                    images-web/毛巾-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/毛巾-400.png 400w,
+                                    images-web/毛巾-800.png 800w,
+                                    images-web/毛巾-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/毛巾-800.webp"
+                         alt="毛巾"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">毛巾</span>
+                  <span class="title-back">SO-370</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysE" data-name="日用E">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用E-400.webp 400w,
+                                    images-web/日用E-800.webp 800w,
+                                    images-web/日用E-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用E-400.png 400w,
+                                    images-web/日用E-800.png 800w,
+                                    images-web/日用E-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用E-800.webp"
+                         alt="日用E"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>          
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">香薰</span>
+                  <span class="title-back">SO-343</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysG" data-name="日用G">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用G-400.webp 400w,
+                                    images-web/日用G-800.webp 800w,
+                                    images-web/日用G-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用G-400.png 400w,
+                                    images-web/日用G-800.png 800w,
+                                    images-web/日用G-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用G-800.webp"
+                         alt="日用G"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">收納盒</span>
+                  <span class="title-back">SO-345</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysV" data-name="日用V">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用V-400.webp 400w,
+                                    images-web/日用V-800.webp 800w,
+                                    images-web/日用V-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用V-400.png 400w,
+                                    images-web/日用V-800.png 800w,
+                                    images-web/日用V-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用V-800.webp"
+                         alt="日用V"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">黏毛器</span>
+                  <span class="title-back">SO-376</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysH" data-name="日用H">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用H-400.webp 400w,
+                                    images-web/日用H-800.webp 800w,
+                                    images-web/日用H-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用H-400.png 400w,
+                                    images-web/日用H-800.png 800w,
+                                    images-web/日用H-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用H-800.webp"
+                         alt="日用H"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">收納掛袋</span>
+                  <span class="title-back">HS‑1956</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysJ" data-name="日用J">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用J-400.webp 400w,
+                                    images-web/日用J-800.webp 800w,
+                                    images-web/日用J-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用J-400.png 400w,
+                                    images-web/日用J-800.png 800w,
+                                    images-web/日用J-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用J-800.webp"
+                         alt="日用J"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">擴香石A</span>
+                  <span class="title-back">SO-352</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="daysK" data-name="日用K">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/日用K-400.webp 400w,
+                                    images-web/日用K-800.webp 800w,
+                                    images-web/日用K-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/日用K-400.png 400w,
+                                    images-web/日用K-800.png 800w,
+                                    images-web/日用K-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/日用K-800.webp"
+                         alt="日用K"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">擴香石B</span>
+                  <span class="title-back">SO-352</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="擦手巾A" data-name="擦手巾A">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/擦手巾A-400.webp 400w,
+                                    images-web/擦手巾A-800.webp 800w,
+                                    images-web/擦手巾A-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/擦手巾A-400.png 400w,
+                                    images-web/擦手巾A-800.png 800w,
+                                    images-web/擦手巾A-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/擦手巾A-800.webp"
+                         alt="擦手巾A"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">擦手巾A</span>
+                  <span class="title-back">SO-388</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+              <div class="swiper-slide outdoor-item" data-aos="fade-up" data-id="擦手巾C" data-name="擦手巾C">
+                <div class="outdoor-img-wrapper">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="images-web/擦手巾C-400.webp 400w,
+                                    images-web/擦手巾C-800.webp 800w,
+                                    images-web/擦手巾C-1200.webp 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <source type="image/png"
+                            srcset="images-web/擦手巾C-400.png 400w,
+                                    images-web/擦手巾C-800.png 800w,
+                                    images-web/擦手巾C-1200.png 1200w"
+                            sizes="(min-width: 1200px) 20vw, 33vw">
+                    <img src="images-web/擦手巾C-800.webp"
+                         alt="擦手巾C"
+                         class="zoomable-img"
+                         width="150" height="150"
+                         loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <hr class="outdoor-divider" />
+                <h2 class="outdoor-title">
+                  <span class="title-front">擦手巾C</span>
+                  <span class="title-back">SO-388</span>
+                  <button class="btn-wishlist" aria-label="加入心願單"><i class="far fa-heart"></i></button>
+                </h2>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+    </div>
+
+    <!-- 放大預覽的動態 DIV -->
+    <div class="zoom-preview"></div>
+    <!-- Toast 通知（桌電版保留） -->
+    <div class="position-fixed top-0 end-0 p-3" style="z-index:1055">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <strong class="me-auto">系統通知</strong>
+          <small class="text-muted">現在</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">已加入心願單！</div>
+      </div>
+    </div>
+    <!-- 傳送到 LINE 按鈕 -->
+
+    <div class="floating-icons">
+      <!-- ★ 新增區 1：模糊搜尋按鈕（放最上方） -->
+      <button id="search-btn" class="floating-btn" title="搜尋商品"> <!-- 搜尋按鈕 -->
+        <i class="fas fa-search"></i>                                  <!-- FontAwesome 搜尋圖示 -->
+      </button>
+      <!-- 1. 傳送心願清單（改自 wishlist-share） -->
+      <button id="wishlist-share" class="floating-btn" title="傳送心願清單">
+        <i class="fas fa-comment-dots"></i>
+        <span id="wishlist-count" class="badge">0</span>
+      </button>
+
+      <!-- 2. 回到頂端 -->
+      <button id="scroll-top" class="floating-btn" title="回到頂端">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+    
+
+    <!-- 頁尾 -->
+    <footer class="site-footer">
+      <div class="container-fluid bg-dark py-5 px-0">
+        <div class="container d-flex flex-column align-items-center text-center">
+          <h5 class="mb-1 fs-2">Contact us</h5>
+          <p class="mb-4 fs-5">Tel : 02-2285-3388</p>
+          <hr class="border-light opacity-25 w-75 my-4" />
+          <p class="mb-1 fs-5">專營各式禮品、贈品工廠｜提供企業客製化禮品、百貨贈品、展場宣傳品等多元選擇，少量打樣、大量生產快速交貨，助您打造高品質品牌好禮</p>
+          <p class="mb-0 fs-6">© 2025 All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- ★ 新增區 2：搜尋對話框（預設隱藏） -->
+    <div id="search-modal" class="search-modal" style="display:none;"> <!-- 外層遮罩 -->
+      <div class="search-box">                                         <!-- 內容區 -->
+        <button id="search-close" class="btn-close" aria-label="關閉"></button> <!-- 關閉 -->
+        <input  id="search-input"  type="text" class="form-control mb-3"
+                placeholder="輸入關鍵字…" />                         <!-- 搜尋輸入框 -->
+        <ul     id="search-results" class="list-group"></ul>           <!-- 結果清單 -->
+      </div>
+    </div>
+
+    <!-- 依賴 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
+
+    <script>
+      /* =======================================================================
+       *  DIWER / 浩軒站點主腳本 (完整不省略版)
+       *  僅「餐具贈品」使用 2 列 Grid，其餘維持單列滑動
+       * ======================================================================= */
+      
+      
+      /******************************************************
+       * 0. 基本設定
+       ******************************************************/
+      const LIFF_ID  = '2007748054-9bD5ZjXA';
+      const LIFF_WEB = 'https://liff.line.me/' + LIFF_ID;
+      const BASE_URL = `${window.location.origin}/`; // 跟著網頁所在網域走
+      const IMG_DIR  = 'images-web/';           // 圖片目錄 (相對網站根)
+      const MOBILE_WIDTH_BREAKPOINT = 768;
+      const MAX_SHARE_IMAGES = 5;               // ★ 一次最多傳送 5 張
+      window.swiperInstances = [];   // ← 先做一個全域空陣列
+      
+      function isIOS() { return /iPhone|iPad|iPod/.test(navigator.userAgent); }
+      function isMobileUA() {
+        return /Android|iPhone|iPad|iPod|Mobile|Phone/i.test(navigator.userAgent);
+      }
+      
+      
+      /* ======================================================
+       * 1. 圖片絕對路徑補全 (含中文檔名 encode)
+       * ====================================================== */
+      function toAbsUrl(u){
+        if(!u) return u;
+        if(/^https?:\/\//i.test(u)) return u; // 已是絕對路徑
+        let path = u.replace(/^\.?\//,'');
+        if(!path.startsWith(IMG_DIR)){
+          path = IMG_DIR + path;
+        }
+        path = encodeURI(path); // encode 中文
+        return new URL(path, BASE_URL).href;
+      }
+      
+      
+      /******************************************************
+       * 2. 商品掃描 & Map (手機/桌電共用)
+       ******************************************************/
+       function scanItems(){
+        const list = [];
+        document.querySelectorAll('.outdoor-item').forEach(it => {
+          const id   = it.dataset.id;                       // 保留 id
+          const name = it.querySelector('.title-front')     // ← ★ 抓可見標題
+                          ?.textContent.trim() || '';       //   去掉兩端空白
+          const imgEl = it.querySelector('img.zoomable-img');
+          const raw   = imgEl ? imgEl.getAttribute('src') : '';
+          const url   = toAbsUrl(raw);
+          list.push({ id, name, url });
+        });
+        return list;
+      }
+      let ALL_ITEMS = [];
+      let ID_TO_IDX = {};
+      let IDX_TO_ITEM = {};
+      function buildItemMaps(){
+        ALL_ITEMS = scanItems();
+        ID_TO_IDX = {};
+        IDX_TO_ITEM = {};
+        ALL_ITEMS.forEach((item,idx)=>{
+          ID_TO_IDX[item.id] = idx;
+          IDX_TO_ITEM[idx] = item;
+        });
+      }
+      
+      
+      /******************************************************
+       * 3. Token 編碼 / 解碼 (手機流程用)
+       ******************************************************/
+      function idxToBase36(i){ return i.toString(36); }
+      function base36ToIdx(s){ return parseInt(s,36); }
+      function buildTokenFromWishlist(items){
+        const codes = [];
+        items.forEach(it=>{
+          const idx = ID_TO_IDX[it.id];
+          if(idx !== undefined) codes.push(idxToBase36(idx));
+        });
+        return codes.join('~');
+      }
+      function decodeTokenToWishlist(token){
+        if(!token) return [];
+        const codes = token.split('~').filter(Boolean);
+        const out = [];
+        codes.forEach(c=>{
+          const idx = base36ToIdx(c);
+          const item = IDX_TO_ITEM[idx];
+          if(item) out.push(item);
+        });
+        return out;
+      }
+      function parseQuery(){
+        const q = {};
+        const qs = window.location.search.substring(1);
+        if(!qs) return q;
+        qs.split('&').forEach(p=>{
+          const [k,v] = p.split('=');
+          if(!k) return;
+          q[decodeURIComponent(k)] = decodeURIComponent(v||'');
+        });
+        return q;
+      }
+      
+      
+      /******************************************************
+       * 4. Storage 工具 (雙寫備援)
+       ******************************************************/
+      function storageGet(key,def){
+        try{ const v=localStorage.getItem(key); if(v!==null) return JSON.parse(v); }catch(e){}
+        try{ const v=sessionStorage.getItem(key); if(v!==null) return JSON.parse(v); }catch(e){}
+        return def;
+      }
+      function storageSet(key,val){
+        const json = JSON.stringify(val);
+        try{ localStorage.setItem(key,json); }catch(e){}
+        try{ sessionStorage.setItem(key,json); }catch(e){}
+      }
+      
+      
+      /******************************************************
+       * 5. 心願單共同狀態  (初始化時補全 URL)
+       ******************************************************/
+      let wishlist = storageGet('wishlist', []).map(it => ({
+        ...it,
+        url: toAbsUrl(it.url)
+      }));
+      
+      function getWishlist(){ return wishlist.slice(); }
+      function setWishlist(arr){
+        wishlist = arr.slice();
+        storageSet('wishlist', wishlist);
+        refreshWishlistUI(); // defined later
+      }
+      
+      
+      /******************************************************
+       * 共用：重新綁定心願單按鈕（防止某些 WebView 失效）
+       * - 超過上限 alert 後呼叫，以確保仍能點擊取消
+       ******************************************************/
+      function rebindWishlistButtons(){
+        document.querySelectorAll('.btn-wishlist').forEach(btn=>{
+          // clone 替換，移除舊 listener
+          const newBtn = btn.cloneNode(true);
+          btn.parentNode.replaceChild(newBtn, btn);
+          
+          newBtn.addEventListener('click', () => {
+            const item = newBtn.closest('.outdoor-item');
+            if(!item) return;
+            const { id, name } = item.dataset;
+            const imgEl = item.querySelector('img.zoomable-img');
+            const raw   = imgEl ? imgEl.getAttribute('src') : '';
+            const abs   = toAbsUrl(raw);
+            const idx = wishlist.findIndex(x => x.id === id);
+            if (idx > -1) wishlist.splice(idx, 1);
+            else          wishlist.push({ id, name, url: abs });
+            setWishlist(wishlist);
+          });
+        });
+      
+        // 防止某些情況 slide 被鎖
+        document.querySelectorAll('.outdoor-swiper .swiper-slide').forEach(slide=>{
+          slide.style.pointerEvents = 'auto';
+        });
+      }
+      
+      
+      
+      /******************************************************
+       * 6. 分享前件數檢查（超限後允許取消）
+       ******************************************************/
+      function ensureShareLimit(list) {
+        if (list.length <= MAX_SHARE_IMAGES) return true;
+      
+        alert(
+          `一次最多只能傳送 ${MAX_SHARE_IMAGES} 張圖片。\n` +
+          `你目前選了 ${list.length} 件。\n\n` +
+          `請關閉此訊息後，點擊商品愛心取消部分項目再分享。`
+        );
+      
+        // ★ 解除可能的點擊鎖定 & 重綁按鈕（行動 WebView 防呆）
+        rebindWishlistButtons();
+        refreshWishlistUI();
+      
+        return false;
+      }
+      
+      
+      /******************************************************
+       * 7. UI Refresh (共用)
+       ******************************************************/
+      function refreshWishlistUI(){
+        document.querySelectorAll('.btn-wishlist').forEach(btn=>{
+          const item   = btn.closest('.outdoor-item');
+          if(!item) return;
+          const inList = wishlist.some(x=>x.id===item.dataset.id);
+          btn.classList.toggle('active', inList);
+          const icon = btn.querySelector('i');
+          if(icon){
+            icon.classList.toggle('fas', inList);
+            icon.classList.toggle('far', !inList);
+          }
+        });
+        const countEl = document.getElementById('wishlist-count');
+        if(countEl) countEl.textContent = wishlist.length;
+      }
+      function showExternalTip(msg){
+        const tip = document.getElementById('open-external-tip');
+        if(!tip) return;
+        if (msg) tip.textContent = msg;
+        tip.style.display = 'block';
+      }
+      
+      
+      /******************************************************
+       * 8. 桌電流程 (含分享)
+       ******************************************************/
+      function initDesktopFlow(){
+        console.log('[HX] Desktop flow start');
+        const LIFF_ID_LOCAL = LIFF_ID;
+        liff.init({ liffId: LIFF_ID_LOCAL }).then(()=>{
+          // after init
+          // ★ 桌機：若已登入 LINE（非 LINE 內嵌），顯示提示一次
+          if (liff.isLoggedIn() && !liff.isInClient()) {
+            if (!sessionStorage.getItem('desktopLoggedNoticeShown')) {
+              alert('已登入 LINE，請再按一次「傳送心願清單」送出。');
+              sessionStorage.setItem('desktopLoggedNoticeShown','1');
+            }
+          }
+        }).catch(err=>{
+          console.warn('LIFF init fail (desktop)', err);
+        });
+      
+        // 傳送心願清單按鈕
+        const shareBtn = document.getElementById('wishlist-share');
+        if(shareBtn){
+          shareBtn.addEventListener('click', () => {
+            if (liff.isInClient()) {
+              return desktopShareWishlist();
+            }
+            if (!liff.isLoggedIn()) {
+              sessionStorage.setItem('shareAfterLogin', '1');
+              return liff.login({ redirectUri: window.location.href });
+            }
+            desktopShareWishlist();
+          });
+        }
+      
+        // 登入回跳提示（原本邏輯保留）
+        if (sessionStorage.getItem('shareAfterLogin') === '1') {
+          sessionStorage.removeItem('shareAfterLogin');
+          if (liff.isLoggedIn()) {
+            alert('已登入 LINE，請再按一次「傳送心願清單」送出。');
+          } else {
+            alert('尚未登入 LINE，請再點一次「傳送心願清單」登入後送出。');
+          }
+        }
+      
+        function desktopShareWishlist() {
+          const list = getWishlist();
+          if (!list.length) {
+            alert('心願單為空，請先加入商品再分享！');
+            return;
+          }
+          if (!ensureShareLimit(list)) return;
+      
+          const messages = list.map(item => {
+            const u = toAbsUrl(item.url);
+            return {
+              type: 'image',
+              originalContentUrl: u,
+              previewImageUrl:    u
+            };
+          });
+          liff.shareTargetPicker(messages).catch(e=>{
+            console.error('桌電分享發生錯誤', e);
+            if (isIOS() && liff.isInClient()) {
+              alert('LINE 內建瀏覽器可能無法直接分享。\n請點右上「⋯」→ 在 Safari / 瀏覽器開啟後再試一次。');
+              showExternalTip();
+            } else {
+              alert('分享未完成：' + (e?.message || e));
+            }
+          });
+        }
+      
+        // 桌電版：加入/移除心願單
+        document.querySelectorAll('.btn-wishlist').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const item = btn.closest('.outdoor-item');
+            if(!item) return;
+            const { id, name } = item.dataset;
+            const imgEl = item.querySelector('img.zoomable-img');
+            const raw   = imgEl ? imgEl.getAttribute('src') : '';
+            const abs   = toAbsUrl(raw);
+            const idx = wishlist.findIndex(x => x.id === id);
+            if (idx > -1) wishlist.splice(idx, 1);
+            else          wishlist.push({ id, name, url: abs });
+            setWishlist(wishlist);
+          });
+        });
+      }
+      
+      
+      /******************************************************
+       * 9. 手機流程 (外部→LIFF→分享)
+       ******************************************************/
+      async function initMobileFlow(){
+        console.log('[HX] Mobile flow start');
+        let liffInited=false, inClient=false;
+        try{
+          await liff.init({ liffId: LIFF_ID });
+          liffInited=true;
+          inClient = liff.isInClient();
+        }catch(e){
+          console.warn('LIFF init fail (mobile)', e);
+        }
+      
+        // 「開啟 LINE」按鈕（若存在）
+        const openBtn = document.getElementById('hx-open-in-line');
+        if(openBtn){
+          openBtn.addEventListener('click',()=>{
+            window.location.href='line://app/'+LIFF_ID;
+            setTimeout(()=>{ window.location.href=LIFF_WEB; },1000);
+          });
+        }
+      
+        // 分享按鈕
+        const shareBtn = document.getElementById('wishlist-share');
+        if(shareBtn){
+          shareBtn.addEventListener('click',()=>{
+            mobileShareButton(liffInited,inClient);
+          });
+        }
+      
+        // 處理 token (從外部跳入 LIFF)
+        const q = parseQuery();
+        let decoded = [];
+        let cameFromToken=false;
+        if(q.wl){
+          decoded = decodeTokenToWishlist(q.wl);
+          cameFromToken=true;
+        }else{
+          try{ decoded = JSON.parse(sessionStorage.getItem('wlPayload')||'[]'); }catch(e){}
+        }
+        if(decoded && decoded.length){
+          setWishlist(decoded);
+        }
+        if(q.wl){
+          history.replaceState({}, "", window.location.pathname);
+        }
+      
+        // token 回來後自動提示分享
+        if(inClient && cameFromToken && wishlist.length){
+          if (!ensureShareLimit(wishlist)) return;
+          const go = confirm('已進入 LINE，是否立即傳送心願單？\n(按取消可先檢查看看)');
+          if(go){
+            mobileShareWishlistViaLiff();
+          }
+        }
+      
+        // 手機版：加入/移除心願單
+        document.querySelectorAll('.btn-wishlist').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const item = btn.closest('.outdoor-item');
+            if(!item) return;
+            const { id, name } = item.dataset;
+            const imgEl = item.querySelector('img.zoomable-img');
+            const raw   = imgEl ? imgEl.getAttribute('src') : '';
+            const abs   = toAbsUrl(raw);
+            const idx = wishlist.findIndex(x => x.id === id);
+            if (idx > -1) wishlist.splice(idx, 1);
+            else          wishlist.push({ id, name, url: abs });
+            setWishlist(wishlist);
+          });
+        });
+      }
+      
+      
+      /******************************************************
+       * 10. 手機分享入口（尚不在 LIFF → 導向 LIFF）
+       ******************************************************/
+      function mobileShareButton(liffInited,inClient){
+        const list = getWishlist();
+        if(inClient){
+          mobileShareWishlistViaLiff();
+          return;
+        }
+        if(!list.length){
+          alert('心願單為空，請先加入商品再分享！');
+          return;
+        }
+        if (!ensureShareLimit(list)) return;
+      
+        const token = buildTokenFromWishlist(list);
+        sessionStorage.setItem('wlPayload', JSON.stringify(list));
+        const target = LIFF_WEB + '?wl=' + encodeURIComponent(token);
+        window.location.href = target;
+      }
+      
+      
+      /******************************************************
+       * 11. 手機：真正分享 (已在 LIFF)
+       ******************************************************/
+      async function mobileShareWishlistViaLiff(){
+        const list = getWishlist();
+        if(!list.length){
+          alert('心願單為空，請先加入商品再分享！');
+          return;
+        }
+        if (!ensureShareLimit(list)) return;
+      
+        const messages = list.map(item=>{
+          const u = toAbsUrl(item.url);
+          return {
+            type:'image',
+            originalContentUrl: u,
+            previewImageUrl:    u
+          };
+        });
+        try{
+          await liff.shareTargetPicker(messages);
+        }catch(e){
+          console.error('mobile 分享失敗', e);
+          if(isIOS() && liff.isInClient()){
+            alert('LINE 內建瀏覽器可能限制圖片分享。\n改用文字連結方式。');
+            mobileShareViaLineIntent(list);
+            showExternalTip();
+          }else{
+            alert('分享未完成：'+(e?.message||e));
+          }
+        }
+      }
+      
+      
+      /******************************************************
+       * 12. 備援文字分享 (若圖片分享受限)
+       ******************************************************/
+      function mobileShareViaLineIntent(list){
+        const lines = ['我挑了幾個浩軒商品：'];
+        list.forEach(item=>{
+          lines.push('• '+item.name+' '+toAbsUrl(item.url));
+        });
+        const text = encodeURIComponent(lines.join('\n'));
+        window.open('https://line.me/R/share?text='+text,'_blank');
+      }
+      
+      
+      /******************************************************
+       * 13. 共通 Swiper 設定：全部使用 Grid，餐具 rows=2，其餘 rows=1
+       ******************************************************/
+      function buildGridSwiperOptions(container) {
+        const isCutlery = isCutlerySection(container);
+        return {
+          centeredSlides: true,
+          centeredSlidesBounds: true,
+          loop: false,
+          slidesPerView: 2,
+          spaceBetween: 16,
+          grid: {
+            rows: isCutlery ? 2 : 1,   // ✅ 餐具用 2 列，其它用 1 列
+            fill: 'row'
+          },
+          freeMode: {
+            enabled: true,
+            sticky: true,
+            momentum: false
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          },
+          breakpoints: {
+            768:  { slidesPerView: 3, spaceBetween: 20 },
+            992:  { slidesPerView: 4, spaceBetween: 24 },
+            1200: { slidesPerView: 5, spaceBetween: 24 }
+          }
+        };
+      }
+      function isCutlerySection(container) {
+          /* 方案 1：看外層 section 是否帶有 .hx-grid-section */
+          return container.closest('.hx-grid-section') !== null;
+
+          /* 方案 2：更簡單，直接看 Swiper 本身有沒有 .hx-grid-swiper
+            return container.classList.contains('hx-grid-swiper');
+          */
+        }
+      
+      /******************************************************
+       * 14. 共用：載入後主入口
+       ******************************************************/
+      document.addEventListener('DOMContentLoaded', () => {
+        // 建商品索引
+        buildItemMaps();
+      
+        // 填產品目錄
+        
+        const dropdown = document.getElementById('product-dropdown');
+        if (dropdown) {
+          document.querySelectorAll('.title-main').forEach((title, idx) => {
+            const sectionId = `section-${idx}`;
+            if (!title.id) title.id = sectionId;
+
+            // 1. 建立大分類 li
+            const li = document.createElement('li');
+            li.className = 'dropdown-submenu'; // 方便 CSS
+
+            const a = document.createElement('a');
+            a.className = 'dropdown-item fw-bold'; // 粗體顯示大分類
+            a.href = `#${sectionId}`;
+            a.textContent = title.textContent.replace('贈品', '').trim();
+
+            li.appendChild(a);
+
+            // 2. 建立小分類 UL
+            const subUl = document.createElement('ul');
+            subUl.className = 'dropdown-menu ps-3'; // 次級選單縮排
+
+            // 找出該 section 下的 .title-front
+            const section = title.closest('section');
+            if (section) {
+              section.querySelectorAll('.outdoor-item').forEach((item, subIdx) => {
+                const frontTitle = item.querySelector('.title-front');
+                if (frontTitle) {
+                  // 給每個商品一個唯一 ID
+                  if (!item.id) item.id = `${sectionId}-item-${subIdx}`;
+
+                  const subLi = document.createElement('li');
+                  const subA = document.createElement('a');
+                  subA.className = 'dropdown-item';
+                  subA.href = `#${item.id}`;
+                  subA.textContent = frontTitle.textContent.trim();
+
+                  subLi.appendChild(subA);
+                  subUl.appendChild(subLi);
+                }
+              });
+            }
+
+            // 3. 把小分類 UL 加到大分類 LI
+            if (subUl.children.length > 0) {
+              li.appendChild(subUl);
+            }
+
+            // 4. 加入到主 dropdown
+            dropdown.appendChild(li);
+          });
+        }
+      
+        // Swiper 初始化：全部使用 Grid（rows 依是否為餐具調整）
+        /* 不要再宣告 const；直接用已經存在的 window.swiperInstances */
+        const swiperContainers = document.querySelectorAll('.outdoor-swiper');
+
+        swiperContainers.forEach(container => {
+          const opts = buildGridSwiperOptions(container);
+          const sw   = new Swiper(container, opts);
+
+          /* 關鍵：push 到全域陣列 */
+          window.swiperInstances.push({ inst: sw, el: container });
+        });
+      
+        // AOS
+        if(typeof AOS !== 'undefined'){
+          AOS.init({ duration: 800, once: true });
+        }
+      
+        // 圖片放大
+        const zoomPreview = document.querySelector('.zoom-preview');
+        if(zoomPreview){
+          document.querySelectorAll('.zoomable-img').forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', e => {
+              const { left, top, width, height } = img.getBoundingClientRect();
+              const xPct = ((e.clientX - left) / width) * 100;
+              const yPct = ((e.clientX - top) / height) * 100; // ← OOPS careful
+            });
+          });
+          // 修正上行錯誤：重新綁定（在下一段覆寫）
+          zoomPreview.innerHTML = ''; // 區隔
+      
+          // 正確放大邏輯
+          document.querySelectorAll('.zoomable-img').forEach(img => {
+            img.addEventListener('click', e => {
+              const rect = img.getBoundingClientRect();
+              const xPct = ((e.clientX - rect.left) / rect.width) * 100;
+              const yPct = ((e.clientY - rect.top)  / rect.height) * 100;
+              zoomPreview.style.backgroundImage    = `url(${img.src})`;
+              zoomPreview.style.backgroundPosition = `${xPct}% ${yPct}%`;
+              zoomPreview.style.display            = 'block';
+            });
+          });
+          zoomPreview.addEventListener('mousemove', e => {
+            const x = (e.clientX / window.innerWidth) * 100;
+            const y = (e.clientY / window.innerHeight) * 100;
+            zoomPreview.style.backgroundPosition = `${x}% ${y}%`;
+          });
+          zoomPreview.addEventListener('click', () => {
+            zoomPreview.style.display = 'none';
+          });
+        }
+      
+        // 回到頂端
+        const scrollTopBtn = document.getElementById('scroll-top');
+        if(scrollTopBtn){
+          scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        }
+      
+        // 匯出 PDF
+        const exportBtn = document.getElementById('export-pdf');
+        if(exportBtn){
+          exportBtn.addEventListener('click', async () => {
+            exportBtn.disabled = true;
+            const origText = exportBtn.textContent;
+            exportBtn.textContent = '匯出中…';
+
+            try {
+              swiperInstances.forEach(sw => sw.inst?.destroy(true, true));
+              document.body.classList.add('pdf-grid');
+
+              const orig = document.getElementById('pdf-catalog') || document.body;
+
+              await Promise.all(
+                Array.from(orig.querySelectorAll('img')).map(img =>
+                  img.complete
+                    ? Promise.resolve()
+                    : new Promise(r => {
+                        img.onload = r;
+                        img.onerror = r;
+                      })
+                )
+              );
+
+              if (typeof html2pdf === 'undefined') {
+                throw new Error('html2pdf 函式庫載入失敗');
+              }
+
+              await html2pdf()
+                .set({
+                  margin: 0.5,
+                  filename: '商品型錄.pdf',
+                  image: { type: 'jpeg', quality: 0.98 },
+                  html2canvas:{ scale:2, useCORS:false, allowTaint:false },
+                  jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+                })
+                .from(orig)
+                .save();
+            } catch (err) {
+              console.error(err);
+              alert('PDF 產生失敗：' + err.message);
+            } finally {
+              document.body.classList.remove('pdf-grid');
+              /* 重新初始化 Swiper */
+              swiperInstances.length = 0;
+              document.querySelectorAll('.outdoor-swiper').forEach(container => {
+                const sw = new Swiper(container, buildGridSwiperOptions(container));
+                swiperInstances.push({ inst: sw, el: container });
+              });
+
+              exportBtn.disabled = false;
+              exportBtn.textContent = origText;
+            }
+          });
+        }
+      
+        // 初始化共用心願單狀態
+        refreshWishlistUI();
+      
+        // 判斷桌電 / 手機
+        const IS_MOBILE_ENV =
+          window.innerWidth <= MOBILE_WIDTH_BREAKPOINT ||
+          isMobileUA();
+      
+        if (IS_MOBILE_ENV) {
+          initMobileFlow();
+        } else {
+          initDesktopFlow();
+        }
+      });
+      // 1. 取得所有 .outdoor-title → 之後可重複用在多張卡片
+      document.querySelectorAll('.outdoor-title').forEach((title) => {
+        // 2. 宣告一個計時器 ID，之後可清除
+        let hoverTimer = null; // 儲存 setTimeout 回傳值
+
+        // 3. 滑鼠進入事件
+        title.addEventListener('mouseenter', () => {
+          // 3‑1. 先保險清掉舊計時器，避免重複
+          clearTimeout(hoverTimer);
+
+          // 3‑2. 計時 5000ms（5 秒）後觸發翻轉
+          hoverTimer = setTimeout(() => {
+            // a) 先把向上翻轉 class 移除（若之前有）
+            title.classList.remove('flip-up');
+            // b) 加上向下翻轉 class → 觸發 CSS 動畫
+            title.classList.add('flip-down');
+          }, 1500); // 1500 毫秒
+        });
+
+        // 4. 滑鼠離開事件
+        title.addEventListener('mouseleave', () => {
+          // 4‑1. 離開就取消尚未完成的 5 秒計時
+          clearTimeout(hoverTimer);
+
+          // 4‑2. 若已經翻下去，現在要翻回來
+          title.classList.remove('flip-down'); // 拿掉向下 class
+          title.classList.add('flip-up');      // 加上向上 class
+        });
+      });
+      /* =======================================================================
+        *  搜尋模組（完整版，直接貼上即可）
+        *  ---------------------------------------------------------------------
+        *  ‑ 開啟對話框：結果清單空白
+        *  ‑ 輸入關鍵字：即時模糊搜尋 name / id
+        *  ‑ 點結果　　：捲動並高亮
+        * ======================================================================= */
+        document.addEventListener('DOMContentLoaded', () => {
+
+        /* 0. 確認商品索引與 Fuse 建立 -------------------------------------- */
+        buildItemMaps();                               // 若已呼叫可刪，無害
+        const fuse = new Fuse(ALL_ITEMS, {
+          keys: ['name'],
+          threshold: 0.4
+        });
+
+        /* 1. DOM 參照 ------------------------------------------------------- */
+        const searchBtn   = document.getElementById('search-btn');
+        const searchModal = document.getElementById('search-modal');
+        const searchInput = document.getElementById('search-input');
+        const searchList  = document.getElementById('search-results');
+        const searchClose = document.getElementById('search-close');
+
+        /* 2. 開啟對話框 ----------------------------------------------------- */
+        searchBtn.addEventListener('click', () => {
+          searchModal.style.display = 'flex';
+          searchInput.value = '';
+          searchInput.focus();
+          renderResults([]);                            // << 初始不顯示任何項目
+        });
+
+        /* 3. 關閉 ----------------------------------------------------------- */
+        searchClose.addEventListener('click', () => {
+          searchModal.style.display = 'none';
+        });
+
+        /* 4. 即時搜尋 / 清空列表 ------------------------------------------- */
+        searchInput.addEventListener('input', () => {
+          const kw   = searchInput.value.trim();
+          const list = kw ? fuse.search(kw).map(r => r.item) : [];
+          renderResults(list);
+        });
+
+        /* 5. 畫結果 --------------------------------------------------------- */
+        function renderResults(arr){
+          searchList.innerHTML = '';
+
+          arr.forEach(it => {
+            const li = document.createElement('li');
+            li.className = 'list-group-item list-group-item-action';
+            li.textContent = it.name;
+
+            li.addEventListener('click', () => {
+              /* ---------- ① 取得卡片、Swiper ---------- */
+              const card      = document.querySelector(`.outdoor-item[data-id="${it.id}"]`);
+              if (!card) return;
+
+              const slideEl   = card.closest('.swiper-slide');      // 該卡所在 slide
+              const swiperEl  = card.closest('.outdoor-swiper');    // 外層 Swiper 容器
+              const swiperObj = (window.swiperInstances || [])
+                                  .find(s => s.el === swiperEl)?.inst;
+
+              /* ---------- ② 讓 Swiper 滑到目標 ---------- */
+              if (swiperObj && slideEl) {
+                const slides = Array.from(swiperEl.querySelectorAll('.swiper-slide'));
+                const idx    = slides.indexOf(slideEl);             // 目標索引
+                if (idx > -1) swiperObj.slideTo(idx, 300);          // 300 ms 動畫
+              }
+
+              /* ---------- ③ 垂直捲動、關對話框、加高亮 ---------- */
+              card.scrollIntoView({ behavior:'smooth', block:'center' });
+              searchModal.style.display = 'none';
+
+              card.classList.add('search-highlight');
+              setTimeout(() => card.classList.remove('search-highlight'), 1200);
+            });
+
+            searchList.appendChild(li);
+          });
+        }
+
+        });
+        /* ======================== 搜尋模組結束 =============================== */
+
+      </script>
+      
+      
+    
+      
+  </body>
+</html>
